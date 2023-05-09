@@ -6,44 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <title>Document</title>
+    <title>BASIC CALCULATOR BY DEITHER CASAGNAP</title>
 </head>
 <body>
     
     <div class="container text-center mt-5 justify-content-center">
-        <form name = "form1" class="container text-center justify-content-center border border-warning w-50 d-flex flex-wrap bg-success p-3 text-dark bg-opacity-120">
+        <form name = "inputField" class="container text-center justify-content-center border border-warning w-50 d-flex flex-wrap bg-success p-3 text-dark bg-opacity-120">
 
             <!-- result -->
             <input class="col-9 border border-danger-subtle fs-4 mt-4 p-2 ps-2 text-danger" id = "calc" type ="text" name="answer"> 
-            <button class="col-2 border border-danger fs-4 ms-2 mt-4 bg-danger p-3 text-light bg-opacity-75" onclick = "form1.answer.value = ' ' " id= "clear"><i class="fas fa-backspace"></i></button>     
+            <button class="col-2 border border-danger fs-4 ms-2 mt-4 bg-danger p-3 text-light bg-opacity-75" onclick = "inputField.answer.value = ' ' " id= "clear"><i class="fas fa-backspace"></i></button>     
         
             <div class="row justify-content-center fs-4 m-3">
 
                 <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "7" onclick = "answer.value += '7' ">
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "8" onclick = "form1.answer.value += '8' ">
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "9" onclick = "form1.answer.value += '9' ">
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "x" onclick = "form1.answer.value += '*' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "8" onclick = "inputField.answer.value += '8' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "9" onclick = "inputField.answer.value += '9' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "x" onclick = "inputField.answer.value += '*' ">
         
 
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "4" onclick = "form1.answer.value += '4' ">
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "5" onclick = "form1.answer.value += '5' ">
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "6" onclick = "form1.answer.value += '6' ">
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "-" onclick = "form1.answer.value += '-' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "4" onclick = "inputField.answer.value += '4' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "5" onclick = "inputField.answer.value += '5' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "6" onclick = "inputField.answer.value += '6' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "-" onclick = "inputField.answer.value += '-' ">
 
   
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "1" onclick = "form1.answer.value += '1' ">
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "2" onclick = "form1.answer.value += '2' ">
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "3" onclick = "form1.answer.value += '3' ">
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "+" onclick = "form1.answer.value += '+' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "1" onclick = "inputField.answer.value += '1' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "2" onclick = "inputField.answer.value += '2' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "3" onclick = "inputField.answer.value += '3' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "+" onclick = "inputField.answer.value += '+' ">
 
   
   
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "." onclick = "form1.answer.value += '.' ">
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "0" onclick = "form1.answer.value += '0' ">
-                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "/" onclick = "form1.answer.value += '/' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "." onclick = "inputField.answer.value += '.' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "0" onclick = "inputField.answer.value += '0' ">
+                <input class="col-3 p-3 border border-info bg-success p-3 text-light bg-opacity-120" type = "button" value = "/" onclick = "inputField.answer.value += '/' ">
                 
                 <!-- Equals utton -->
-                <input class="col-3 p-3 border border-danger bg-danger p-3 text-light bg-opacity-75" type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">
+                <input class="col-3 p-3 border border-danger bg-danger p-3 text-light bg-opacity-75" type = "button" value = "=" onclick = "inputField.answer.value = eval(inputField.answer.value) ">
         
         
 
